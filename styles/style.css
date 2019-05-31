@@ -1,0 +1,21 @@
+@font-face{
+	font-family: NinjaNaruto;
+	src: url('fonts/naruto.ttf');
+}
+body{
+	background-color: #FFA100;
+}
+ul{
+	background-color: #FFB840;
+	font-size: 40px;
+	font-family: NinjaNaruto;
+	
+}
+main{
+	background-color: white;
+	color: dimgray;
+	font-size: 40px;
+}
+a{
+	color: #FF3500;
+}

@@ -2,44 +2,51 @@
 	font-family: NinjaNaruto;
 	src: url('fonts/naruto.ttf');
 }
+body{
+	background: #FF9900;
+}
 header{
-	text-align: center;
-	color: #FF3500;
-	font-size: 30px;
-	font-family: NinjaNaruto;
-	align-content: center;
+	padding: 5%;
+}
+#header{
+	margin: auto;
+	width:50%;
 	display: flex;
 }
-body{
-	background-color: #FFA100;
+header img{
+	margin:auto;
+}
+header h1{
+	margin:auto;
+	color:#FF3300;
+	font-family: NinjaNaruto;
+	font-size: 40px;
 }
 nav{
-	margin: 1%;
-	background-color: #FFB840;
-	display: flex;
-	flex: 100%;
-	height: 160px;
+	border-radius: 10px;
+	background: #FFCC00;
+	padding: 5%;
 }
-nav ul {
+nav > ul{
+	margin:0;
 	padding: 0;
-	list-style-type: none;
-	flex: 2;
 	display: flex;
+	list-style-type: none;
 }
 nav li {
-	font-size: 40px;
+	margin: auto;
+}
+nav li a{
 	font-family: NinjaNaruto;
-	display: inline;
-	vertical-align: bottom;
-	text-align: center;
-	flex: 1;
+	color:blue;
 }
 main{
-	margin: 1%;
-	background-color: white;
-	color: dimgray;
-	font-size: 40px;
+	border-radius: 10px;
+	background: white;
 }
-a{
-	color: #FF3500;
+main section{
+	color:dimgray;
+}
+main section ul{
+	list-style-type: none;
 }

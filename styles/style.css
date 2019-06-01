@@ -2,16 +2,40 @@
 	font-family: NinjaNaruto;
 	src: url('fonts/naruto.ttf');
 }
+header{
+	text-align: center;
+	color: #FF3500;
+	font-size: 30px;
+	font-family: NinjaNaruto;
+	align-content: center;
+	display: flex;
+}
 body{
 	background-color: #FFA100;
 }
-ul{
+nav{
+	margin: 1%;
 	background-color: #FFB840;
+	display: flex;
+	flex: 100%;
+	height: 160px;
+}
+nav ul {
+	padding: 0;
+	list-style-type: none;
+	flex: 2;
+	display: flex;
+}
+nav li {
 	font-size: 40px;
 	font-family: NinjaNaruto;
-	
+	display: inline;
+	vertical-align: bottom;
+	text-align: center;
+	flex: 1;
 }
 main{
+	margin: 1%;
 	background-color: white;
 	color: dimgray;
 	font-size: 40px;

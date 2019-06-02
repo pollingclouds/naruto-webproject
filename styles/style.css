@@ -3,50 +3,111 @@
 	src: url('fonts/naruto.ttf');
 }
 body{
-	background: #FF9900;
-}
-header{
-	padding: 5%;
-}
-#header{
-	margin: auto;
-	width:50%;
-	display: flex;
-}
-header img{
-	margin:auto;
-}
-header h1{
-	margin:auto;
-	color:#FF3300;
-	font-family: NinjaNaruto;
-	font-size: 40px;
-}
-nav{
-	border-radius: 10px;
-	background: #FFCC00;
-	padding: 5%;
-}
-nav > ul{
+	background: white;
 	margin:0;
 	padding: 0;
-	display: flex;
+	font-family: "Open Sans";
+}
+.content{
+	padding: 1%;
+	margin: 0;
+	background-color: black;
+	color:gray;
+	text-align: center;
+}
+header{
+	height: 120px;
+	border-bottom: 2px solid white;
+}
+header a{
+	display: inline-block;
+	height: 100%;
+}
+header img{
+	height:100%;
+	border: 0;
+}
+nav{
+	background: black;
+	height:50px;
+}
+nav > ul{
+	margin: 0;
+	padding: 0;
 	list-style-type: none;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	width: 100%;
+	height: 100%;
 }
 nav li {
+	width: 100%;
+	
+	border-right: 1px solid white;
 	margin: auto;
+}
+nav li:last-child {
+	border-right: none;
+}
+nav li a:hover{
+	color:#FF3500;
 }
 nav li a{
 	font-family: NinjaNaruto;
-	color:blue;
+	font-size: 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: gray;
 }
 main{
-	border-radius: 10px;
-	background: white;
+	width:60%;
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	margin:auto;
+	display: flex;
 }
 main section{
+	width: 70%;
 	color:dimgray;
+	padding: 30px;
 }
 main section ul{
+	padding: 0;
+	margin:25px auto 0 auto;
 	list-style-type: none;
+}
+main section ul li{
+	margin:0;
+	padding: 0;
+}
+.article-preview{
+	border:2px solid black;
+	height: 400px;
+	
+}
+
+.article-image-container{
+	width: 100%;
+	height: 60%;
+	overflow: hidden;
+}
+.article-preview img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.article-description{
+	padding:20px;
+	overflow: hidden;
+}
+.article-description p{
+	text-indent: 10px;
+}
+.text-in-box{
+	text-overflow: ellipsis;
+}
+main aside{
+	border-left:2px solid black;
+	padding:1%;
 }
